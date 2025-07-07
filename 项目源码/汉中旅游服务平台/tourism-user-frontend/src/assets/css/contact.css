@@ -1,0 +1,112 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    font-family: '黑体';
+}
+.contact1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.contact-header {
+    text-align: center;
+    margin: 40px 0;
+}
+.contact-header h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-header p {
+    font-size: 16px;
+    color: #666;
+}
+.contact3 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.contact-card {
+    width: 48%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+.contact-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact-content {
+    padding: 20px;
+}
+.contact-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+.contact-info {
+    margin-bottom: 15px;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+}
+.contact-item i {
+    margin-right: 8px;
+    color: #409EFF;
+    width: 16px;
+}
+.contact-description {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.6;
+}
+.contact-form-section {
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.contact-form-section h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .contact-card {
+        width: 100%;
+    }
+    .contact1 {
+        padding: 0 20px;
+    }
+    .contact3, .contact-form-section {
+        width: 100%;
+    }
+} 
